@@ -28,6 +28,11 @@ h2 {
     font-size: 35px;
 }
 
+ul {
+    padding: 0;
+    list-style: none;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -83,7 +88,6 @@ h2 {
 
 .header-nav ul {
     display: flex;
-    list-style: none;
     gap: 45px;
 }
 
@@ -191,6 +195,10 @@ header {
 }
 
 /* Summary Section */
+.summary-section {
+    margin-bottom: 120px;
+}
+
 .summary-section h2 {
     margin-bottom: 90px;
 }
@@ -215,4 +223,27 @@ header {
 .summary-items {
     display: flex;
     gap: 40px;
+}
+
+/* Footer */
+.footer-section {
+    padding: 120px 0;
+    display: flex;
+    gap: 50px;
+}
+
+.footer-section > div {
+    width: 50%;
+}
+
+.footer-section ul {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-section :where(input[type="text"], input[type="email"], textarea) {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #FFF;
+    background-color: #FFF;
 }
