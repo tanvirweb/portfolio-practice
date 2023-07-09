@@ -1,0 +1,19 @@
+/* Shared Styles */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Playfair Display", serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.bg-primary {
+    background-color: #FFF8F3;
+}
+
+.fc-primary {
+    color: #FD6E0A;
+}
