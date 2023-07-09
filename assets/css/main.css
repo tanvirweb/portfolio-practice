@@ -21,6 +21,11 @@ p {
 
 h1, h2, h3, h4 {
     color: #181818;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 35px;
 }
 
 .container {
@@ -123,7 +128,6 @@ header {
 
 .header-banner h1 {
     font-size: 85px;
-    font-weight: 700;
     margin: 0;
 }
 
@@ -137,6 +141,10 @@ header {
 }
 
 /* About Section */
+.about-section-wrap {
+    border-radius: 10px;
+}
+
 .about-section {
     max-width: 820px;
     margin: 120px auto;
@@ -159,4 +167,52 @@ header {
 .about-personal-info p {
     font-weight: 600;
     color: #474747;
+}
+
+/* Skill Section */
+.skill-section {
+    margin-bottom: 120px;
+}
+
+.skills {
+    display: flex;
+    gap: 20px;
+}
+
+.skills > div {
+    padding: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.skills h3 {
+    font-size: 20px;
+}
+
+/* Summary Section */
+.summary-section h2 {
+    margin-bottom: 90px;
+}
+
+.summary-section :where(h3, h4) {
+    color: #474747;
+}
+
+.summary-section h3 {
+    font-size: 30px;
+}
+
+.summary-title {
+    font-size: 25px;
+}
+
+.summary-subTitle {
+    color: #757575;
+    font-size: 20px;
+}
+
+.summary-items {
+    display: flex;
+    gap: 40px;
 }
